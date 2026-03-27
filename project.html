@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <title>My Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #222;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .head {
+      font-size: 30px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+    }
+    .head .button-container{
+      padding-left: auto;
+      margin-left: auto;
+      font-size: 15px;
+      text-align: right;
+      width: 10px;
+    }
+    #projects > div {
+      background-color: #676765;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 20px 30px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .project-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .project-content {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: #fff;
+    
+    }
+
+    @media (max-width: 700px) {
+      #projects > div {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .project-img {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 15px auto;
+      }
+
+      .project-content {
+        min-width: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section id="projects">
+    <div class="head">
+      <h2>My Projects</h2>
+      <div class="button-container">
+        <a href="index.html" class="home-button">🏠</a>
+    </div>
+    </div>
+
+    <div class="project1">
+      <img src="pics/Campus.jpg" alt="PHINMAP Project" class="project-img">
+      <div class="project-content">
+        <h3>Project One</h3>
+        <p>
+          <strong>Promissory Note Webpage</strong> is for student feedback about their experience when applying for a <br>
+    Promissory Note at PHINMA University of Iloilo. Through this project we can identify
+    which steps in applying for a Promissory Note need improvement so the process will be faster.
+        </p>
+      </div>
+    </div>
+
+    <div class="project2">
+      <img src="pics/phinmap.jpg" alt="Glam Shop" class="project-img">
+      <div class="project-content">
+        <h3>Project Two</h3>
+        <p>
+          <strong>GlamShop</strong> is your one-stop online boutique for all things glamorous. <br>Whether you're preparing for a dazzling party or a formal event, GlamShop offers a curated collection of elegant gowns,
+          <br> luxurious perfumes, stunning jewelry, and other essential accessories to complete your perfect look.
+          <br>With GlamShop, you can effortlessly shine with style, sophistication, and confidence.
+        </p>
+      </div>
+    </div>
+
+    <div class="project3">
+      <img src="pics/glam.jpg" alt="Botanical Haven" class="project-img">
+      <div class="project-content">
+        <h3>Project Three</h3>
+        <p>
+          <strong>Botanical Haven</strong> is a mobile e-commerce app designed<br> for plant lovers to easily browse and purchase indoor and outdoor plants.
+          <br> It offers detailed product information, smooth navigation, and a user-friendly interface for a convenient shopping experience.
+          Its mission is to make plant shopping simple, enjoyable, and accessible, <br>providing a digital space for anyone to bring nature into their homes..
+        </p>
+      </div>
+    </div>
+
+    <div class="project4">
+      <img src="pics/botanical.jpg" alt="Vendee" class="project-img">
+      <div class="project-content">
+        <h3>Project Four</h3>
+        <p>
+          <strong>Vendee</strong> is an innovative online shopping platform that puts customization at the heart of your shopping experience.
+          <br> Unlike typical e-commerce apps, Vendee adapts to your style, preferences,
+          <br> and needs — making every search and suggestion feel like it was made just for you..
+        </p>
+      </div>
+    </div>
+
+     <div class="project5">
+      <img src="pics/vendee.jpg" alt="ToDoList" class="project-img">
+      <div class="project-content">
+        <h3>Project Five</h3>
+        <p>
+          <strong>To Do List</strong> A terminal-based To-Do List application developed in Python.
+           It provides a straightforward interface to manage tasks, allowing users to add, view, complete, and delete items efficiently.
+           Designed to run in the command line, it's a lightweight and effective tool for task tracking.
+        </p>
+      </div>
+    </div>
+
+    <div class="project6">
+      <img src="pics/todolist.jpg" alt="Arduino" class="project-img">
+      <div class="project-content">
+        <h3>Project Six</h3>
+        <p>
+          <strong>Digital Ohmmeter</strong> is a device that measures electrical resistance accurately using an Arduino Uno and a voltage divider circuit.
+          It displays the result on an LCD screen and gives feedback through an LED and buzzer.
+          Designed for easy and precise testing, it helps in electronic troubleshooting using basic components like resistors, wires, and a breadboard.
+        </p>
+      </div>
+    </div>
+
+    <div class="project7">
+      <img src="pics/arduino.jpg" alt="Arduino" class="project-img">
+      <div class="project-content">
+        <h3>Project Six</h3>
+        <p>
+          <strong>Digital Ohmmeter</strong> is a device that measures electrical resistance accurately using an Arduino Uno and a voltage divider circuit.
+          It displays the result on an LCD screen and gives feedback through an LED and buzzer.
+          Designed for easy and precise testing, it helps in electronic troubleshooting using basic components like resistors, wires, and a breadboard.
+        </p>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
