@@ -9,7 +9,6 @@ body {
 }
 
 /* Header */
-/* Layout the header using flexbox */
 .profile-header {
   display: flex;
   align-items: center;
@@ -40,8 +39,6 @@ body {
   font-size: 20px;
   color: #fff;
 }
-
-
 
 /* Navigation */
 nav {
@@ -94,4 +91,30 @@ footer {
   text-align: center;
   padding: 15px;
   transition: background 0.3s, color 0.3s;
+}
+
+/* ─── Mobile ─────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+  }
+
+  .profile-info h1 {
+    font-size: 22px;
+  }
+
+  .profile-info p {
+    font-size: 13px;
+  }
+
+  nav a {
+    margin: 0 8px;
+    font-size: 13px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
 }
